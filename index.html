@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Create an Account</h2>
+        <p>
+            <label>First Name
+                <input type="text" name="first-name" required>
+            </label>
+            <label>Last Name
+                <input type="text" name="last-name" required>
+            </label>
+        </p>
+        <p>
+            <label>E-mail
+                <input type="email" name="user-email" required>
+            </label>
+        </p>
+        <p>
+            <label>Male
+                <input type="radio" name="gender" required>
+            </label>
+            <label>Female
+                <input type="radio" name="gender" required>
+            </label>
+        </p>
+        <p>
+            <label>Country
+                <select name="countries" id="countries" required>
+                    <option value="poland">Poland</option>
+                    <option value="ukraine" selected>Ukraine</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="germany">Germany</option>
+                    <option value="denmark">Denmark</option>
+                </select>
+            </label>
+            <label>City
+                <input type="text" name="city" required>
+            </label>
+        </p>
+        <p>
+            <button type="submit">Sign Up</button>
+        </p>
+        <p>
+            By clicking the 'Sign Up' button, you confirm that you accept our <br>
+            <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+        </p>
+        <p>
+            Have an account? <a href="#">Log In</a>
+        </p>
+    </form>
+    <form action="#" method="post">
+        <h2>Profile</h2>
+        <p>
+            <img src="img/profile-avatar.png" alt="avatar">
+            <input type="file" name="file">
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <label>Name
+                <input type="text" name="name" required>
+            </label>
+            <label>E-mail
+                <input type="email" name="email" required>
+            </label>
+        </p>
+        <p>
+            <label>Country
+                <select name="countries" id="countries" required>
+                    <option value="poland">Poland</option>
+                    <option value="ukraine" selected>Ukraine</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="germany">Germany</option>
+                    <option value="denmark">Denmark</option>
+                </select>
+            </label>
+            <label>City
+                <input type="text" name="city" required>
+            </label>
+        </p>
+        <p>
+            <label>Zip Code
+                <input type="text" name="zip-code" required>
+            </label>
+            <label>Phone Number
+                <input type="tel" name="phone-number" required>
+            </label>
+        </p>
+        <p>
+            <button type="submit">Update</button>
+        </p>
+    </form>
+</body>
+</html>
